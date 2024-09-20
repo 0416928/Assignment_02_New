@@ -1,5 +1,5 @@
 """
-Description: This program demonstrates different kinds of collections in Python.
+Description: This program demonstrates different kinds of data types and collections in Python.
 Author: Gaganpreet Kaur
 Date: September,19,2024
 
@@ -7,6 +7,16 @@ Date: September,19,2024
 """
 
 #SIMPLE DATA TYPES
+name = "Gaganpreet"
+print(f"value: {name} type: {type(name)}")
+is_valid_driving_license = False
+print(f"value: {is_valid_driving_license} type: {type(is_valid_driving_license)}")
+current_year = 2024
+print(f"this year: {current_year} type: {type(current_year)}")
+current_year += 1
+print(f"next year: {current_year} type: {type(current_year)}")
+
+
 
 #CALCULATIONS
 
